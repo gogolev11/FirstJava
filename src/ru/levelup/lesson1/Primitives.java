@@ -1,3 +1,6 @@
+package ru.levelup.lesson1;
+
+//ru.levelup.lesson1.Primitives
 public class Primitives {
     public static void main(String[] args) {
 
