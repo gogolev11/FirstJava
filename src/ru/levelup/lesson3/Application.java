@@ -34,7 +34,7 @@ public class Application {
         laptop.displayProductInfo(75);
         laptop.displayProductInfo(35);
 
-        Product mouse =new Product( "Дщпшеуср", "ML435");
+        Product mouse =new Product( "logitech", "ML435");
 
     }
 }
