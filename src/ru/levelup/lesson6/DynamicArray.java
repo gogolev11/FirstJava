@@ -1,8 +1,8 @@
 package ru.levelup.lesson6;
 //Список на основе массива (динамический масиив)
 //add()-добавление в конце списка
-public class DynamicArray {
-    private int size;//количество элементов в списке
+public class DynamicArray extends AbstractList implements Structure{
+
     private int nextElementIndex; //индекс куда вставим следующий элемент
     private int[] elements;
     public DynamicArray(){
@@ -11,7 +11,7 @@ public class DynamicArray {
         this.nextElementIndex=0;
 
     }
-
+    @Override
     //добавление элемента в конец списка
     public void add(int value){
         if(elements.length==size){
@@ -30,7 +30,5 @@ public class DynamicArray {
         return elements[index];
     }
 
-    public int size(){
-        return size;
-    }
+
 }
